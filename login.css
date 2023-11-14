@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 3vh;
+}
+.nav2 .btn-light{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(128, 128, 128, 0.131);
+}
+
+@media screen and (max-width: 900px) {
+    .first-nav{
+        display: none;
+    }
+    .nav2 .hr{
+        display: none;
+    }
+    .nav2 .btn-light{
+        margin: 20px 0 20px 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .nav2 button{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* home section  */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: #DDF2E4;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+}
+.login-1{
+    height: 100vh;
+    width: 50%;
+}
+.title{
+    color: white;
+    background-color: #068932;
+    border-radius: 5px;
+    padding: 3px;
+}
+.b-log p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 17.5px;
+}
+.b-log .log-link{
+    background-color: #068932;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 3% 18% 3% 18%;
+}
+
+.login-2 .b-log .log-link2{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 3% 18% 3% 18%;
+}
+.login-2 .b-log{
+    padding-top: 20%;
+}
+
+.c-p{
+    margin-top: 50px;
+}
+
+.b-log{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 15%;
+
+}
+
+.login-2{
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+}
+
+.h-logo{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    bottom: 35%;   
+}
+.h-img{
+    width: 12%;
+}
+
+@media screen and (max-width: 400px){
+    .home{
+        height: 150vh;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-1, .login-2{
+        width: 100%;
+        padding: 5%;
+        height: 100vh;
+    }
+    .b-log{
+        width: 100%;
+    }
+    .h-logo{
+        width: 100%;
+        display: none;
+    }
+    .h-img{
+        width: 30%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    .home{
+        height: 170vh;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-1, .login-2{
+        width: 100%;
+        padding: 5%;
+        height: 100vh;
+    }
+    .b-log{
+        width: 100%;
+    }
+    .h-logo{
+        width: 100%;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+    .h-img{
+        width: 23%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .home{
+        height: 170vh;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-1, .login-2{
+        width: 100%;
+        padding: 5%;
+        height: 100vh;
+    }
+    .b-log{
+        width: 100%;
+    }
+    .h-logo{
+        margin: 30% 0 20% 0;
+    }
+    .h-img{
+        width: 18%;
+    }
+}
+
+/* footer  */
+.footer{
+    width: 100%;
+    height: 80vh;
+    padding-top: 5% ;
+}
+.f-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a, .footer h6{
+    color: rgba(39, 39, 39, 0.637);
+}
+
+.footer h6{
+    letter-spacing: 8px;
+}
+
+.footer a:hover{
+    color: green;
+}
+
+.social-footer{
+    width: 40%;
+    float: right;
+}
+.social-footer hr{
+    width: 100%;
+}
+
+.social-footer i{
+    font-size: 30px;
+    margin-right: 25px;
+    color: blue;
+}
+
+.social-footer p{
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.542);
+}
+
+@media screen and (max-width: 900px){
+    .footer{
+        margin-top: 20%;
+    }
+    .footer .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .col{
+        padding: 10%;
+    }
+    .social-footer{
+        width: 100%;
+        padding: 5%;
+    }
+}
